@@ -5,4 +5,6 @@ export enum Configuration {
   dbUsername = 'DB_USERNAME',
   dbPassword = 'DB_PASSWORD',
   database = 'DATABASE',
+  jwtSecret = 'JWT_SECRET',
+  jwtExp = 'JWT_EXP',
 }
