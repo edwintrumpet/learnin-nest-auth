@@ -19,7 +19,7 @@ export class UserService {
     return payload;
   }
 
-  async getUser(key: string, value: string): Promise<User> {
+  async getUser(key: string, value: any): Promise<User> {
     return this._userRepository.findOne({ [key]: value });
   }
 
